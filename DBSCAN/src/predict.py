@@ -2,11 +2,11 @@ import joblib
 import pandas as pd
 
 model = joblib.load(
-    "models/dbscan_model.pkl"
+    "DBSCAN/models/dbscan_model.pkl"
 )
 
 scaler = joblib.load(
-    "models/scaler.pkl"
+    "DBSCAN/models/scaler.pkl"
 )
 
 

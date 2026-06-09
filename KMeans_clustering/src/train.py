@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv(
-    "data/Mall_Customers.csv"
+    "KMeans_clustering/data/Mall_Customers.csv"
 )
 
 X = df[

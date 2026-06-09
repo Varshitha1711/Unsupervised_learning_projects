@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import DBSCAN
 
 df = pd.read_csv(
-    "data/Wholesale customers data.csv"
+    "DBSCAN/data/Wholesale customers data.csv"
 )
 
 X = df.drop(
@@ -25,12 +25,12 @@ dbscan.fit(X_scaled)
 
 joblib.dump(
     dbscan,
-    "models/dbscan_model.pkl"
+    "DBSCAN/models/dbscan_model.pkl"
 )
 
 joblib.dump(
     scaler,
-    "models/scaler.pkl"
+    "DBSCAN/models/scaler.pkl"
 )
 
 print("Model Saved Successfully")   
