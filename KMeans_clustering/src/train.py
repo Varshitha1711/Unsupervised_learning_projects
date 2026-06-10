@@ -34,12 +34,12 @@ kmeans.fit(
 
 joblib.dump(
     scaler,
-    "models/scaler.pkl"
+    "KMeans_clustering/models/scaler.pkl"
 )
 
 joblib.dump(
     kmeans,
-    "models/kmeans_model.pkl"
+    "KMeans_clustering/models/kmeans_model.pkl"
 )
 
 print(

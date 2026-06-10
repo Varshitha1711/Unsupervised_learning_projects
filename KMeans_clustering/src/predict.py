@@ -2,11 +2,11 @@ import joblib
 import pandas as pd
 
 model = joblib.load(
-    "models/kmeans_model.pkl"
+    "KMeans_clustering/models/kmeans_model.pkl"
 )
 
 scaler = joblib.load(
-    "models/scaler.pkl"
+    "KMeans_clustering/models/scaler.pkl"
 )
 
 def predict_cluster(features):
