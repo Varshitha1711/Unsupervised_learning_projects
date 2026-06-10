@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv(
-    "data/Mall_Customers.csv"
+    "Hierarchical_clustering/data/Mall_Customers.csv"
 )
 
 X = df[
@@ -43,12 +43,12 @@ knn.fit(
 
 joblib.dump(
     scaler,
-    "models/scaler.pkl"
+    "Hierarchical_clustering/models/scaler.pkl"
 )
 
 joblib.dump(
     knn,
-    "models/cluster_predictor.pkl"
+    "Hierarchical_clustering/models/cluster_predictor.pkl"
 )
 
 print(
