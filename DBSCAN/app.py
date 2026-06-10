@@ -1,6 +1,6 @@
 import streamlit as st
 
-from DBSCAN.src.predict import predict_customer
+from src.predict import predict_customer
 st.set_page_config(
     page_title="Customer Anomaly Detection",
     page_icon="📊",

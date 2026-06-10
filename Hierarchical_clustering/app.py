@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from Hierarchical_clustering.src.predict import predict_cluster
+from src.predict import predict_cluster
 
 st.set_page_config(
     page_title="Customer Segmentation",
