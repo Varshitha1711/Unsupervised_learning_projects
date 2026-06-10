@@ -1,6 +1,6 @@
 import streamlit as st
 
-from KMeans_clustering.src.predict import predict_cluster
+from src.predict import predict_cluster
 
 st.title(
     "Customer Segmentation using K-Means"
